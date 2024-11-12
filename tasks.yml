@@ -1,0 +1,11 @@
+job_search_task:
+  description: >
+    Search for remote Product Management job listings on LinkedIn. Gather 
+    the job title, company name, location, and a link to the listing. Format 
+    the results in a table to provide a clear overview.
+  expected_output: >
+    A table containing the following columns: Job Title, Company, Location, 
+    and Job URL.
+  tools:
+    - linkedin_scraper_tool
+  agent: job_researcher
